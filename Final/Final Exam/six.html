@@ -15,11 +15,21 @@
         <a href="six.html">Problem 6</a> |
         <a href="seven.html">Problem 7</a> |
         <a href="eight.html">Problem 8</a> |
-        <a href="nine.html">Problem 9</a> |
+        <a href="nine.html">Problem 9</a>
     </nav> 
     <br><br>
+    <h1>Problem 6</h1><br>
     <div>
-        <h2>Final Exam</h2>
+        <a href="https://google.com" id="google">Google</a>
     </div>
+
+    <script>
+        const googleLink = document.getElementById('google');
+
+        googleLink.addEventListener('click', function(event) {
+            event.preventDefault(); 
+            window.location.href = 'https://facebook.com'; 
+        });
+    </script>
 </body>
 </html>
